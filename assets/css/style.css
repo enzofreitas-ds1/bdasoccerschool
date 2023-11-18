@@ -1,14 +1,4 @@
-/**
-* Template Name: Techie
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
 
   color: #444444;
@@ -33,9 +23,7 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -66,9 +54,7 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+
 #preloader {
   position: fixed;
   top: 0;
@@ -103,18 +89,14 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -154,12 +136,7 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+
 .navbar {
   padding: 0;
 }
@@ -431,9 +408,6 @@ h6 {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -551,9 +525,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+
 section {
   padding: 100px 0;
   overflow: hidden;
@@ -592,9 +564,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
 .about {
   padding: 120px 0;
 }
@@ -649,9 +619,7 @@ section {
   top: 12px;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
+
 .counts {
   background: linear-gradient(90deg, rgba(0, 255, 13, 0.767) 0%, rgba(30, 168, 11, 0.774) 100%), url("../img/counts-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
@@ -672,9 +640,7 @@ section {
   color: rgba(255, 255, 255, 0.8);
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -804,9 +770,7 @@ section {
   fill: #11dbcf;
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
+
 .features .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -832,9 +796,7 @@ section {
   min-height: 400px;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -922,9 +884,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1713,4 +1672,82 @@ color: #272927;
   margin-right: 10px;
   margin-top: 0;
   transition: 0.5s;
+}
+
+.tabela img:hover{
+  box-shadow: #000000 0px 0px 20px 0px;
+  transition: 0.5s;
+}
+
+.bt-enviar input:hover{
+  box-shadow: 0px 0px 4px 0px #00ff15;
+  background-color: #004906;
+  color: #fff;
+}
+
+.bt-enviar2 input:hover{
+  box-shadow: 0px 0px 4px 0px #ff0800;
+  background-color: #490000;
+  color: #fff;
+}
+
+.ttextfinal p{
+  font-size: 5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.ttextfinal2 p{
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 290px;
+}
+
+.tabela{
+  display: flex;
+   align-items: center; 
+   justify-content: center; 
+   gap: 20px;
+   margin-top: 20px;
+}
+
+.tabela img{
+  width: 350px; height: 300px; border: 2px solid #000000;
+}
+
+.unic{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width:200px) and (max-width:1024px){
+
+  .tabela{
+    display: block;
+     align-items: center; 
+     justify-content: center; 
+     margin-top: 20px;
+  }
+  
+  .tabela img{
+    width: 250px; height: 200px; border: 2px solid #000000; justify-content: center; align-items: center; text-align: center; margin-top: 10px;
+  }
+  
+  .unic{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 }
